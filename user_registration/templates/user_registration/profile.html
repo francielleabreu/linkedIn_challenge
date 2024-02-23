@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #1d6cc0;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: block;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <a href="/users/all-users/">View All Linkedin Members</a>
+    <h1>Profile</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Job Title: Senior developer</p>
+</body>
+</html>
